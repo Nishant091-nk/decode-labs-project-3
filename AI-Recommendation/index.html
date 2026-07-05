@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SmartRecommend AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>SmartRecommend AI</h1>
+
+<form method="POST">
+
+<input
+type="text"
+name="interest"
+placeholder="Example: python machine learning"
+required>
+
+<button>
+
+Recommend
+
+</button>
+
+</form>
+
+{{ recommendations|safe }}
+
+</div>
+
+</body>
+
+</html>
